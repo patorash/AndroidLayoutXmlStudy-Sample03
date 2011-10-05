@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_sample"
+        android:id="@+id/menu_sample" />
+    <item
+        android:title="@string/menu_chapter11"
+        android:id="@+id/menu_chapter11" />
+    <item
+        android:title="@string/menu_chapter12"
+        android:id="@+id/menu_chapter12" />
+    <item
+        android:title="@string/menu_chapter13"
+        android:id="@+id/menu_chapter13" />
+    <item
+        android:title="@string/menu_chapter14"
+        android:id="@+id/menu_chapter14" />
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_img_repeat">
+    <!-- ロゴを入れるRelativeLayout -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <!-- メニューを入れるLinearLayout -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top|center_horizontal"
+            android:layout_marginBottom="10dp">
+            <!-- 
+                ImageViewを3つ使ってボタンを作成してください
+                srcは
+                @drawable/regist
+                @drawable/manage
+                @drawable/photo_book
+                を使ってください。
+                layout_widthは90
+                layout_heightは90
+                adjustViewBoundsはtrue
+                を指定すること。
+                他に使う属性もあります。
+             -->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top|center_horizontal">
+            <!-- 
+                ImageViewを2つ使ってボタンを作成してください
+                srcは
+                @drawable/ranking
+                @drawable/about
+                を使ってください。
+                layout_widthは90
+                layout_heightは90
+                adjustViewBoundsはtrue
+                を指定すること。
+                他に使う属性もあります。
+                また、もう1つViewを追加して見た目を整えてください。
+             -->
+        </LinearLayout>
+    </LinearLayout>
+    <!-- フッター(広告エリア)など -->
+    <RelativeLayout
+        android:id="@+id/adArea"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/nail_banner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

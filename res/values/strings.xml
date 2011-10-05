@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sample03</string>
+    <string name="menu_sample">sample</string>
+    <string name="menu_chapter11">chapter11</string>
+    <string name="menu_chapter12">chapter12</string>
+    <string name="menu_chapter13">chapter13</string>
+    <string name="menu_chapter14">chapter14</string>
+</resources>
