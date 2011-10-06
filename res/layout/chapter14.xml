@@ -34,20 +34,14 @@
             android:layout_marginBottom="10dp">
             <ImageView
                 android:src="@drawable/regist"
-                android:id="@+id/btnRegist"
-                android:onClick="moveToRegist"
                 android:layout_marginRight="10dp"
                 style="@style/SampleTopBtnPort" />
             <ImageView
                 android:src="@drawable/manage"
-                android:id="@+id/btnList"
-                android:onClick="moveToList"
                 android:layout_marginRight="10dp"
                 style="@style/SampleTopBtnPort" />
             <ImageView
                 android:src="@drawable/photo_book"
-                android:id="@+id/btnPhotoBook"
-                android:onClick="moveToPhotoBook"
                 style="@style/SampleTopBtnPort" />
         </LinearLayout>
         <LinearLayout
@@ -57,14 +51,10 @@
             android:gravity="top|center_horizontal">
             <ImageView
                 android:src="@drawable/ranking"
-                android:id="@+id/btnRanking"
-                android:onClick="moveToRanking"
                 android:layout_marginRight="10dp"
                 style="@style/SampleTopBtnPort" />
             <ImageView
                 android:src="@drawable/about"
-                android:id="@+id/btnAbout"
-                android:onClick="moveToAbout"
                 android:layout_marginRight="10dp"
                 style="@style/SampleTopBtnPort" />
             <View style="@style/SampleTopBtnPort" />

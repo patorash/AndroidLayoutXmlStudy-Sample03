@@ -39,24 +39,18 @@
             android:layout_marginBottom="10dp">
             <ImageView
                 android:src="@drawable/regist"
-                android:id="@+id/btnRegist"
-                android:onClick="moveToRegist"
                 android:layout_marginRight="10dp"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:adjustViewBounds="true" />
             <ImageView
                 android:src="@drawable/manage"
-                android:id="@+id/btnList"
-                android:onClick="moveToList"
                 android:layout_marginRight="10dp"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:adjustViewBounds="true" />
             <ImageView
                 android:src="@drawable/photo_book"
-                android:id="@+id/btnPhotoBook"
-                android:onClick="moveToPhotoBook"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:adjustViewBounds="true" />
@@ -68,16 +62,12 @@
             android:gravity="top|center_horizontal">
             <ImageView
                 android:src="@drawable/ranking"
-                android:id="@+id/btnRanking"
-                android:onClick="moveToRanking"
                 android:layout_marginRight="10dp"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:adjustViewBounds="true" />
             <ImageView
                 android:src="@drawable/about"
-                android:id="@+id/btnAbout"
-                android:onClick="moveToAbout"
                 android:layout_marginRight="10dp"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
